@@ -7,6 +7,7 @@ import com.teste.mongo.demo.domain.User;
 
 @Repository
 public interface UserRepository  extends MongoRepository<User, String>{
+
 	
 	
 

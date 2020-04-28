@@ -15,6 +15,7 @@ public class Instantiation implements CommandLineRunner {
 	
 	@Autowired
 	private UserRepository userRepository;
+	
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
